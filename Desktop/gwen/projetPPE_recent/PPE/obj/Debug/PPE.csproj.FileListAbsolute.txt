@@ -1,0 +1,12 @@
+c:\users\sio2\documents\visual studio 2015\Projects\PPE\PPE\bin\Debug\PPE.exe.config
+C:\Users\SIO2\Documents\Visual Studio 2015\Projects\PPE\PPE\obj\Debug\PPE.csprojResolveAssemblyReference.cache
+C:\Users\SIO2\Documents\Visual Studio 2015\Projects\PPE\PPE\obj\Debug\PPE.Form1.resources
+C:\Users\SIO2\Documents\Visual Studio 2015\Projects\PPE\PPE\obj\Debug\PPE.Properties.Resources.resources
+C:\Users\SIO2\Documents\Visual Studio 2015\Projects\PPE\PPE\obj\Debug\PPE.csproj.GenerateResource.Cache
+C:\Users\SIO2\Documents\Visual Studio 2015\Projects\PPE\PPE\bin\Debug\PPE.exe
+C:\Users\SIO2\Documents\Visual Studio 2015\Projects\PPE\PPE\bin\Debug\PPE.pdb
+C:\Users\SIO2\Documents\Visual Studio 2015\Projects\PPE\PPE\obj\Debug\PPE.exe
+C:\Users\SIO2\Documents\Visual Studio 2015\Projects\PPE\PPE\obj\Debug\PPE.pdb
+C:\Users\SIO2\Documents\Visual Studio 2015\Projects\PPE\PPE\bin\Debug\MySql.Data.dll
+C:\Users\SIO2\Documents\Visual Studio 2015\Projects\PPE\PPE\bin\Debug\Google.Protobuf.dll
+C:\Users\SIO2\Documents\Visual Studio 2015\Projects\PPE\PPE\bin\Debug\MySql.Data.xml

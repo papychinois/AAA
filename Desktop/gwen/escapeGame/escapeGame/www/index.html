@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.x.x.min.css" />
+
+    <!--
+        Personnalisez la stratégie de sécurité de contenu dans la balise méta ci-dessous selon vos besoins. Ajoutez 'unsafe-inline' à default-src pour activer JavaScript directement dans les lignes.
+        Pour obtenir des détails, consultez http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <title>escapeGame</title>
+
+    <!-- Références escapeGame -->
+    <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    <div data-role="page" id="admin">
+        <div data-role="header">
+            <center class="titre">Citoyen ! Exprime toi.....</center>
+        </div>
+        <div data-role="content">
+            <form action="vuegeneral.php" method="post">
+
+                <p>
+                    <label for="pseudo">Votre pseudo :</label>
+                    <input type="text" name="pseudo" />
+                </p>
+                <br />
+                <br />
+                <p>
+                    <label for="pass">Votre mot de passe :</label>
+                    <input type="password" name="pass" id="pass" />
+                </p>
+                <br />
+                <br />
+                <p>
+                    <label for="pass">Retapez votre mot de passe :</label>
+                    <input type="password" name="pass" id="pass" />
+                </p>
+                <br />
+                <br />
+                <p>
+                    <label for="email">Quel est votre e-mail ?</label>
+                    <input type="text" name="email" id="email" tabindex="30" />
+                    <br />
+                </p>
+                <br />
+                <p>
+                    <input type="submit" value="Envoyer" />
+                    <input type="reset" value="Reset" />
+                </p>
+
+            </form>
+
+        </div>     
+        <div data-role="footer" data-position="fixed">
+            <center>Je suis le Footer</center>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#admin">Admin</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="Config">
+        <div data-role="header">
+            <center class="titre">Citoyen ! Exprime toi.....</center>
+        </div>
+        <div data-role="content">
+            <p>Page de configuration</p>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <center>Je suis le Footer</center>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#admin">Admin</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Référence Cordova ajoutée à votre application une fois générée. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+    <script src="scripts/jquery-1.8.0.min.js"></script>
+    <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
